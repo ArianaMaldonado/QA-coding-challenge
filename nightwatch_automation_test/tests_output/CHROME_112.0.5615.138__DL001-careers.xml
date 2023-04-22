@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="DL001-careers"
+    errors="0" failures="1" hostname="" id="" package="DL001-careers" skipped="0"
+    tests="3" time="7.879" timestamp="">
+  
+    <testcase name="December Labs Careers" classname="DL001-careers" time="7.510" assertions="0">
+    </testcase>
+  
+    <testcase name="Open pop up" classname="DL001-careers" time="0.3120" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click on Send button without entering data" classname="DL001-careers" time="0.05700" assertions="2">
+
+      <failure message="Cannot read properties of undefined (reading &#39;element&#39;)">TypeError: Cannot read properties of undefined (reading &#39;element&#39;)
+    at Page.checkError (C:\Users\Usuario\OneDrive\Escritorio\Arianin\coding_challenge\nightwatch_automation_test\page-objects\careers.js:16:21)
+    at Click on Send button without entering data (C:\Users\Usuario\OneDrive\Escritorio\Arianin\coding_challenge\nightwatch_automation_test\tests\DL001-careers.js:20:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="careers.e2e"
+    errors="0" failures="1" hostname="" id="" package="careers.e2e" skipped="0"
+    tests="3" time="7.243" timestamp="">
+  
+    <testcase name="December Labs Careers" classname="careers.e2e" time="6.838" assertions="0">
+    </testcase>
+  
+    <testcase name="Open pop up" classname="careers.e2e" time="0.3320" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click on Send button without entering data" classname="careers.e2e" time="0.07300" assertions="2">
+
+      <failure message="Cannot read properties of undefined (reading &#39;element&#39;)">TypeError: Cannot read properties of undefined (reading &#39;element&#39;)
+    at Page.checkError (C:\Users\Usuario\OneDrive\Escritorio\Arianin\coding_challenge\nightwatch_automation_test\page-objects\careers.js:16:21)
+    at Click on Send button without entering data (C:\Users\Usuario\OneDrive\Escritorio\Arianin\coding_challenge\nightwatch_automation_test\tests\careers.e2e.js:21:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
