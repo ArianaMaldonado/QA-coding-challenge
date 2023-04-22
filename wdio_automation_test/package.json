@@ -15,5 +15,8 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "@wdio/runner": "^8.8.6"
   }
 }
