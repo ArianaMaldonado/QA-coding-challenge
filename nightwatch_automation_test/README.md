@@ -83,6 +83,14 @@ Once done, I finished by filling the form using the page object function and wit
 
 After this I closed the browser by using `browser.end()`
 
+> **Note:** *I could check the validations by checking the class of the inputs, but I consider the exercise was so specific, so I decided to check the border color particularly.*
+
+## Suggestions
+### Validations
+I see that the only inputs validation is that some of them are required and gets red when they are not completed. This is good, but you're allowing the user to write whatever he wants into the fields.
+
+I suggest to improve the validations by adding min-max characters, specifications of the characters that are allowed -we may not need to use symbols on the name field-, maybe a maximum file size for the CV input, etcetera.
+
 ## Authors
 
   **Ariana Maldonado**
