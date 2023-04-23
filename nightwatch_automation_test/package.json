@@ -4,7 +4,7 @@
   "description": "Automation test of December Labs Careers page.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx nightwatch"
   },
   "author": "Ariana Maldonado",
   "license": "ISC",

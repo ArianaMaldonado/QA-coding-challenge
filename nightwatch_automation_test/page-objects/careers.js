@@ -10,20 +10,22 @@ const commands = {
 
     getErrorBorderColor: function () {
         return this
-            .click('@sendBtn')
-            .waitForElementVisible('@nameInput', 3000)
-            .getCssProperty('@liInput', 'border', function (result) {
+            .getCssProperty('.wpforms-error', 'border-color', function (result) {
                 console.log('Result:', result.value);
-            });
+            })
     },
 
     getBorderNone: function () {
         return this
-            .waitForElementVisible('@phoneInput', 2000)
-            .getCssProperty('@phoneInput', 'border', function (result) {
+            .getCssProperty('@phoneInput', 'border-color', function (result) {
                 console.log('Result:', result.value);
             });
+    },
+
+    waitForProperty: function () {
+        return browser.pause(1000);
     }
+
 }
 
 module.exports = {
@@ -56,12 +58,9 @@ module.exports = {
         liInput: {
             selector: '#wpforms-870-field_20'
         },
-        fileInput: {
-            selector: '#wpforms-870-field_22'
-        },
         commentsInput: {
             selector: '#wpforms-870-field_2'
-        }
+        },
     },
     commands: [commands]
 }

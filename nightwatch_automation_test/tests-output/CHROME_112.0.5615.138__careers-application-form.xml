@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="careers-application-form"
+    errors="0" failures="0" hostname="" id="" package="careers-application-form" skipped="0"
+    tests="4" time="9.877" timestamp="">
+  
+    <testcase name="December Labs Careers" classname="careers-application-form" time="6.835" assertions="0">
+    </testcase>
+  
+    <testcase name="Open pop up" classname="careers-application-form" time="0.4710" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click on &#34;Send&#34; button without entering data" classname="careers-application-form" time="1.253" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Filling required data red border should disappear" classname="careers-application-form" time="1.318" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
