@@ -16,7 +16,6 @@ describe('December Labs website', () => {
     it('Navigate to Huston Office website', async () => {
         const browserUrl = await browser.getUrl()
         await MainPage.hustonOfficeBtn.scrollIntoView();
-        await MainPage.hustonOfficeBtn.waitForDisplayed();
         await MainPage.hustonOfficeBtn.click();
         await expect(HoustonPage.title).toHaveText('Houston Web and App Developers');
         await expect(browser).toHaveUrl(`${browserUrl}locations/houston/`);
